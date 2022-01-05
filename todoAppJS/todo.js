@@ -35,7 +35,7 @@ function add(todo) {
         input.value = ""; // init input value
         saveData();
     }
-} //
+}
 
 function saveData() {
     const lists = document.querySelectorAll("li"); // Get to all 'li' 
